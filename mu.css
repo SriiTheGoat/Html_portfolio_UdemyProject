@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: red;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    height: 10px;
+    margin: 20px;
+    padding: 20px;
+
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    /* Allow the h1 to take up remaining space */
+}
+
+.header img {
+    height: 100px;
+
+    margin: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    /* Add margin to separate the image and h1 */
+}
+
+a,
+button {
+    text-decoration: none;
+    margin: 4px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    background-color: black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+    color: black;
+    padding: 2px 2px;
+    /* Adjust the padding to make the button smaller */
+    cursor: pointer;
+    margin-left: 2px;
+    /* Adjust the margin to shift the button to the right */
+}
+
+button:hover {
+    background-color: black;
+}
+
+hr {
+    margin: 50px 0;
+    /* Adjust margin to create more space for the hr */
+    border: 2px solid red;
+    /* Example border style */
+    width: 100%;
+    /* Ensure hr takes up the full width */
+}
+
+.BestPlayers {
+    height: 1000px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Best {
+    margin: 2px;
+    width: max-content;
+}
+
+.Best img {
+    height: 250px;
+}
+
+h2 {
+    color: yellow;
+}
+
+h3 {
+    color: wheat;
+}
+
+h4 {
+    color: white;
+}
+
+/* Add the following CSS to your existing stylesheet or create a new one */
+.image {
+    height: 600px;
+}
+
+.image img {
+    width: 100%;
+    /* Ensure the image takes 100% of the width of its container */
+    height: 100%;
+    /* Ensure the image takes 100% of the height of its container */
+    object-fit: cover;
+    /* Maintain the aspect ratio and cover the entire container */
+}
+
+.video iframe {
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 500px;
+    /* Adjust the height as needed */
+}
